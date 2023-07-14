@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 02</title>
+</head>
+<body>
+    <script>
+        const num1 = parseInt(prompt("Digite o primeiro número inteiro:"))
+        const num2 = parseInt(prompt("Digite o segundo número inteiro:"))
+        const num3 = parseInt(prompt("Digite o terceiro número inteiro:"))
+
+        var maior = num1;
+        if (num2 > maior) {
+             maior = num2;
+        }if (num3 > maior) {
+            maior = num3;
+        }
+        alert(maior +' é o maior número')
+
+        var menor = num1;
+        if (num2 < menor) {
+             menor = num2;
+        }if (num3 < menor) {
+            menor = num3;
+        }
+        alert(menor +' é o menor número')
+    </script>
+</body>
+</html>
